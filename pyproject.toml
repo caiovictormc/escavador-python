@@ -19,7 +19,7 @@ requests = "^2.27.1"
 cchardet = "^2.1.7"
 python-dotenv = "^0.19.2"
 ratelimit = "*"
-dataclasses = "*"
+dataclasses = { version = "*", python = "<3.7" }
 importlib = { version = "*", python = "<3" }
 importlib_metadata = "*"
 
